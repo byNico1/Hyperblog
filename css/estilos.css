@@ -6,12 +6,21 @@ body {
   margin: 0;
   padding: 0;
 }
+#cabecera {
+  background-color: #33a;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem;
+}
 #container {
+  margin-top: 50px !important;
   width: 70%;
-  padding: 1em;
   text-align: center;
   border: 1px solid #ddd;
   margin: 0 auto;
+  -webkit-box-shadow: 10px 10px 69px 11px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 10px 10px 69px 11px rgba(0, 0, 0, 0.56);
+  box-shadow: 10px 10px 69px 11px rgba(0, 0, 0, 0.56);
 }
 #container h1 {
   font-size: 20px;
